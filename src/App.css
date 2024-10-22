@@ -68,6 +68,7 @@ label {
   font-weight: bold;
 }
 
+/* Input and Textarea Styling */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -78,6 +79,19 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  color: black;
+  /* Text inside the input */
+  background-color: white;
+  /* Background of the input */
+}
+
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  /* Placeholder text color */
+  opacity: 1;
+  /* Ensure placeholder text is fully visible */
 }
 
 textarea {
